@@ -7,36 +7,9 @@
     content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Policy Benefits – Solar Savings Eligibility</title>
 
-  <!-- ====== Pixels / Analytics (left exactly as-is) ====== -->
-  <script src="//b-js.ringba.com/CAfdb7eb5bdaa24fb8a155f293ece397ae" async></script>
-  <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PKBQ2L5S');
-  </script>
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "sd8b13254n");
-  </script>
+
   <script async src="https://mm-uxrv.com/js/mm_2f1b778b-a559-4b02-89fa-78b304b58dca-78534927.js"></script>
-  <!-- TikTok Pixel Code Start -->
-  <script>
-  !function (w, d, t) {
-    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
-    ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
-    ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat([].slice.call(arguments)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
-    ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e};
-    ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};
-    n=d.createElement("script");n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t; e=d.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-    ttq.load('CV0AU8BC77UBQA5N4G9G'); ttq.page();
-  }(window, document, 'ttq');
-  </script>
-  <!-- TikTok Pixel Code End -->
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -285,10 +258,7 @@
   </style>
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKBQ2L5S" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
+
 
   <!-- Celebration overlay -->
   <div id="image-container"><img src="baarish.GIF" alt="Celebration"></div>
@@ -463,7 +433,7 @@
       step = 1;
       quizText.textContent = "What’s the purpose of your solar setup?";
       renderAnswers([
-        { label: "Residential", value: "Residential", onClick: () => { purpose = "Residential"; pushTag({purpose}); renderStep2(); } },
+        // { label: "Residential", value: "Residential", onClick: () => { purpose = "Residential"; pushTag({purpose}); renderStep2(); } },
         { label: "Homes",       value: "Homes",       onClick: () => { purpose = "Homes";       pushTag({purpose}); renderStep2(); } },
         { label: "Commercial",  value: "Commercial",  onClick: () => { purpose = "Commercial";  pushTag({purpose}); renderStep2(); } },
       ]);

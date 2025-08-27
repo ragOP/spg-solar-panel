@@ -270,7 +270,7 @@
     </div>
   </div>
   <div class="ticker">
-    <em><span id="counter" style="font-weight:800;">22,578</span>&nbsp;Seniors Enrolled In Last 24 Hours!</em>
+    <em><span id="counter" style="font-weight:800;">22,578</span>&nbsp;Homeowners in Lucknow Enrolled in Last 24 Hours!</em>
   </div>
 
   <!-- ======== Status (hidden) ======== -->
@@ -308,7 +308,7 @@
 
       <div class="answer" id="answerOptions">
         <div class="answer-btn-5" data-v="Residential">Residential</div>
-        <div class="answer-btn-5" data-v="Homes">Homes</div>
+        <!-- <div class="answer-btn-5" data-v="Homes">Homes</div> -->
         <div class="answer-btn-5" data-v="Commercial">Commercial</div>
       </div>
 
@@ -433,8 +433,8 @@
       step = 1;
       quizText.textContent = "What’s the purpose of your solar setup?";
       renderAnswers([
-        // { label: "Residential", value: "Residential", onClick: () => { purpose = "Residential"; pushTag({purpose}); renderStep2(); } },
-        { label: "Homes",       value: "Homes",       onClick: () => { purpose = "Homes";       pushTag({purpose}); renderStep2(); } },
+        { label: "Residential", value: "Residential", onClick: () => { purpose = "Residential"; pushTag({purpose}); renderStep2(); } },
+        // { label: "Homes",       value: "Homes",       onClick: () => { purpose = "Homes";       pushTag({purpose}); renderStep2(); } },
         { label: "Commercial",  value: "Commercial",  onClick: () => { purpose = "Commercial";  pushTag({purpose}); renderStep2(); } },
       ]);
       smoothScrollTo(quizText.getBoundingClientRect().top + window.scrollY - 12, 450);
